@@ -1,0 +1,97 @@
+<html>
+<head>
+    <style>
+    .ab{background-image: url("IMG_20230416_142007~2.jpg");
+        background-repeat:no-repeat ;
+        width:1100px;
+        height:500px;
+        display: grid;
+        justify-content: center;
+        padding-top:500px;}
+
+    .bc{background-color: azure;
+        margin-left:1150px;
+        margin-top:-1000px;
+        gap:10px;}
+
+    .cd{margin-left:1150px;}
+
+    .para{margin-left:1150px;
+          width: 800px;
+         font-size:20px;
+         font-style: italic;
+         font-family:'Courier New', Courier, monospace;}  
+
+
+    
+    .gh {margin-left:1150px;}
+     
+    .ij{margin-left:1150px;}
+
+    .kl{margin-left:1150px;}
+
+    .mn {margin-left:1150px;
+        width:800px;
+        background-color: black;
+        color:white;}
+
+    .op{margin-left:1150px;
+        width:800px;}
+
+       @media only screen and (max-width:480px) 
+       {
+        cd{width:450px;
+            height:450px;}
+       }
+
+       .bc{background-color: azure;}
+ 
+       
+
+        
+
+    </style>
+</head>
+<body>
+<div class="ab">
+
+     <h1 style="color:rgb(83, 92, 100);">Pyla Sumanth</h1>
+
+</div>
+
+<div class="bc">
+<h2>Home</h2>
+<h2>Portfolio</h2>
+<h2>Contact</h2>
+</div>
+<div class="cd">
+<img src="./IMG_20230218_195119_357.jpg" width="1000px"height=840px;>
+</div>
+<div class="para">
+<p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available. </p>
+</div>
+<p class="gh">
+NAME
+<input type="text" class="NAME"><br>
+</p>
+<p class="ij">
+EMAIL
+<input type="text" class="EMAIL"><br>
+</p>
+<p class="kl">
+MESSAGE
+<input type="text" class="MESSAGE"><br>
+</p>
+<button class="mn">
+SEND MESSAGE
+</button><br>
+
+<p class="op">
+Powered by<a href="https://www.w3schools.com/w3css/default.asp">W3.CSS</a>
+</p>
+
+
+
+</div>
+</body>
+</html>
